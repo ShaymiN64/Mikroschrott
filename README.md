@@ -14,7 +14,7 @@ Usage Example: Plug in a USB stick with the program and quickly launch it.
 This automatically downloads the newest version and launches it. Requires only an internet connection.
 Usage Example: You forgot your USB stick and still want to be funny. Run the below command (in CMD) to download and launch the file.
 ```
-    curl -o netrun.bat "https://raw.githubusercontent.com/Shaymin-HEG-001/Mikroschrott/refs/heads/master/netrun.bat" && start /MIN "" netrun.bat && exit 0
+    curl -o netrun.bat "https://raw.githubusercontent.com/ShaymiN64/Mikroschrott/refs/heads/master/netrun.bat" && start /MIN "" netrun.bat && exit 0
 ```
 
 ## What exactly does this thing

